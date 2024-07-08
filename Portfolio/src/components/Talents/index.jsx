@@ -1,10 +1,13 @@
 function Talents() {
     return (
       <section className="my-5">
-        <div className="my-2 talents">
-        <p>
+        <div className="talents">
+          <h4>
           See my github <a href="https://github.com/Kevins-Trove?tab=repositories">Kevin&#39;s Trove</a> repositories
-          </p>
+          </h4>
+        </div>
+        <div className="page-container">
+        
           <div className="skills-container">
           <div className="skills">
           <h3>Front-end</h3>

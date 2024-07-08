@@ -3,7 +3,7 @@
 function Header(props) {
 
   return (
-    <header className="flex-row space-between px-1">
+    <header >
       
       <h1>Kevin&#39;s Trove</h1>
       <div>

@@ -1,7 +1,7 @@
 function Home() {
   return (
-    <section className="my-5">
-      <div className="my-2">
+    <section >
+      
         <div className="page-container">
         <p>
         As a software developer with expertise in Groovy, JavaScript, React, and Python, I thrive on transforming innovative ideas into practical solutions. With a passion for creativity, I specialize in crafting elegant, efficient code that not only solves problems but also automates processes to streamline everyday tasks. Whether it&#39;s developing dynamic web applications, building robust backend systems, or implementing cutting-edge automation tools, I am dedicated to delivering solutions that exceed expectations.
@@ -12,11 +12,8 @@ function Home() {
         <p>
         Let&#39;s collaborate to turn your ideas into reality and revolutionize the way we approach challenges.
         </p>
-        <p>
-        test
-        </p>
         </div>
-      </div>
+      
     </section>
   );
 }

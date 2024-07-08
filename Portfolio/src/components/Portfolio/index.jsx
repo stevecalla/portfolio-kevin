@@ -7,7 +7,8 @@ function Portfolio() {
     
 
     <section>
-        <div className='project-container'>
+      <div className="project-container">
+        
 
         
         
@@ -26,12 +27,13 @@ function Portfolio() {
           link='https://github.com/Kevins-Trove/Wildside-Events' />
           
           <ProjectCard 
-          title='Plates with Purpose'
-          techStack='Handlebars, javascript'
-          description='Plates With Purpose is an innovative platform that acts as a cross between a food bank and a takeout restaurant. '
-          image='platesWithPurpose' 
+          title='Tandem'
+          techStack='React, MERN'
+          description='Group travel planing app.'
+          image='tandem' 
           link='https://github.com/Kevins-Trove/PlatesWithPurpose/tree/main' />
           
+       
        </div>
           
     </section>
