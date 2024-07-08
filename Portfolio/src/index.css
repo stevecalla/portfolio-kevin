@@ -172,3 +172,26 @@ footer h3{
   flex-wrap: wrap;
   flex-direction: row;
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+.project-card {
+  width: 30%;
+  height: 300px;
+  border-radius: 25px 25px 25px 25px;
+  margin: 10px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
