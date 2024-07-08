@@ -1,11 +1,12 @@
 function Talents() {
     return (
       <section className="my-5">
-        <div className="my-2">
+        <div className="my-2 talents">
         <p>
-          Download my <a href="https://www.linkedin.com/">resume</a>
+          See my github <a href="https://github.com/Kevins-Trove?tab=repositories">Kevin&#39;s Trove</a> repositories
           </p>
-          <h3>Front-end Proficiencies</h3>
+          <div className="skills-container">
+          <h3>Front-end</h3>
           <ul className="skills">
             <li>HTML</li>
             <li>CSS</li>
@@ -15,16 +16,26 @@ function Talents() {
             <li>React</li>
             <li>Bootstrap</li>
           </ul>
-          <h3>Back-end Proficiencies</h3>
+          <h3>Back-end</h3>
           <ul className="skills">
             <li>APIs</li>
+            <li>Groovy</li>
             <li>Node</li>
+            <li>Handlebars</li>
             <li>Express</li>
             <li>PostgreSQL, Sequelize</li>
             <li>MongoDB, Mongoose</li>
             <li>REST</li>
             <li>GraphQL</li>
           </ul>
+          <h3>Other</h3>
+          <ul className="skills">
+            <li>Leaflet</li>
+            <li>Marzipano</li>
+            <li>FileMaker Developer</li>
+            <li>MicroStation MDL</li>
+          </ul>
+          </div>
         </div>
       </section>
     );

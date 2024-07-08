@@ -7,7 +7,7 @@ import './index.css'
 import Error from './components/ErrorPage';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Home/index.jsx';
+import Contact from './components/Contact/index.jsx';
 import Talents from './components/Talents/index.jsx';
 
 import './index.css';

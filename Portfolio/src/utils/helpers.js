@@ -3,4 +3,10 @@ export function validateEmail(email) {
     return result.test(String(email).toLowerCase());
 }
   
+export function toProperCase(value) {
+    return value.replace(/\w\S*/g, function(text) {
+        return text.charAt(0).toUpperCase() + text.substr(1).toLowerCase();
+    });
+}
+  
  

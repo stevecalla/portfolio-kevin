@@ -20,7 +20,9 @@ function Contact() {
   };
 
   const handleChange = (e) => {
+    
     if (e.target.name === 'email') {
+      
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
         setErrorMessage('Your email is invalid.');
@@ -42,11 +44,11 @@ function Contact() {
 
   return (
     
-
-    <section>
-        <h3>
-        I would love to hear you ideas and or work on your project, reach out to me and let me know what you need.
-        </h3>
+    <div className="page-container">
+    <section >
+        <h4>
+        I would love to hear you ideas and or work on your project, reach out to me and let me know what you are looking for.
+        </h4>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -75,14 +77,14 @@ function Contact() {
             onBlur={handleChange}
           />
         </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
+        {errorMessage.length > 0 ? 
+        <div className="error-text">
+            <h4>{errorMessage}</h4>
+          </div> : <div></div>}
         <button type="submit">Submit</button>
       </form>
     </section>
+    </div>
   );
 }
 
